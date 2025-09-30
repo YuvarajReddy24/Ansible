@@ -1,0 +1,34 @@
+- name: "Yuvaraj reddy m"
+  dob: "01-01-01"
+  age: 21
+  addresses:
+    # Object
+  - doorNo: 4-32
+    street: "gandhi nagar"
+    city: hyderabd
+    pin: 534565
+    type: current
+  
+  - doorNo: 4-32
+    street: "gandhi nagar"
+    city: hyderabd
+    pin: 534565
+    type: perm
+  skills:
+  - java
+  - devops
+  - cloud
+
+- name: "Bhaskar"
+  dob: 01-01-1993
+  age: 32
+  addresses:
+    # Object:
+  - doorno: 2-22
+    street: sgpalya
+    city: Bangalore
+    pin: 517125
+  skills:
+  - java
+  - devops
+  - cloud
