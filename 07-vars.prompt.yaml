@@ -11,5 +11,5 @@
   tasks:
   - name: print credentials
     ansible.builtin.debug:
-    private: true
       msg: "Hello, Username is: {{ username }}, Password is: {{ password }}"
+      private: true 
