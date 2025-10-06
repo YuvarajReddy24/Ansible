@@ -9,7 +9,7 @@
   #dictionary or maps
   tags:
      Application: payment
-      Environment: dev
+     Environment: dev
   # List
   listTags:
     - key: Application
