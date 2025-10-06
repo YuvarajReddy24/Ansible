@@ -1,0 +1,22 @@
+- name: functions
+  host: local
+  connection: local
+  vars:
+  technologies: Devops,linux,shell,ansible # string
+  name: Sivakumar
+  gmail: yuvarajreddy52@gmail.com
+  Ip address: 192.168.232.278
+  #dictionary or maps
+  tags:
+     Application: payment
+      Environment: dev
+  # List
+  listTags:
+    - key: Application
+      value: payment
+    - key: Environment
+      value: dev
+  tasks:
+  - name: default variable
+    ansible.builtin.debug:
+      msg: "Hello, {{ name | default('Ramesh') }}"
