@@ -1,17 +1,17 @@
 - name: functions
-  host: local
+  hosts: local
   connection: local
   vars:
-  technologies: Devops,linux,shell,ansible # string
-  name: Sivakumar
-  gmail: yuvarajreddy52@gmail.com
-  Ip address: 192.168.232.278
-  #dictionary or maps
-  tags:
-     Application: payment
-     Environment: dev
-  # List
-  listTags:
+    technologies: DevOps, Linux, Shell, Ansible # string
+    name: "Sivakumar reddy M"
+    gmail: Info@GMAIL.COM
+    ipaddress: "19222.168.0.1"
+    # dictionary == map
+    tags:
+      Application: payment
+      Environment: dev
+    # List
+    listTags:
     - key: Application
       value: payment
     - key: Environment
